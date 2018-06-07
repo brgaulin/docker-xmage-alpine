@@ -9,6 +9,7 @@
         --add-host example.com:0.0.0.0 \
         -e "XMAGE_DOCKER_SERVER_ADDRESS=example.com" \
         goesta/xmage-alpine
+        
 
 
 XMage needs to know the domain name the server is running on. The `--add-host` option adds an entry to the containers `/etc/hosts` file for this domain. 
